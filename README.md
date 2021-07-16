@@ -77,7 +77,7 @@ El primer de ellos nos ubica en el directorio actual y el segundo nos regresa un
 #### Listando elementos
 
 | Comando | Accion |
-| ------- | ====== |
+| ------- | ------ |
 | ls -la : | Lista todos los elementos del directorio, incluidos los ocultos. |
 | ls -lS : | Lista todos los elementos iniciando por los más pesados. |
 | ls -lr : | Lista todos los elementos de forma inversa. |
