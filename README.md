@@ -72,66 +72,32 @@ El primer de ellos nos ubica en el directorio actual y el segundo nos regresa un
 
 ### Clase 3: Manipulando archivos y directorios
 
-### Listando elementos
+#### Listando elementos
 
-Comando
+| Comando | Accion |
+| ------- | ====== |
+| ls -la : | Lista todos los elementos del directorio, incluidos los ocultos. |
+| ls -lS : | Lista todos los elementos iniciando por los más pesados. |
+| ls -lr : | Lista todos los elementos de forma inversa. |
+| tree : | Despliega todos nuestros directorios como un árbol. |
+| tree -L {#} | Despliega los elementos que se encuentren en el nivel indicado. |
 
-ls -la
 
-ls -lS
+#### Manipulación de elementos
 
-ls -lr
+| **Comando** | Accion |
+| ----------- | ------ |
+| mkdir {nombre folder} | Crea una carpeta |
+| touch {Nombre file} | Crea un archivo |
+| cp {original} | hace una copia de arcchivos {copia} |
+| mv {file} {path} | Mueve el archivo al path que se escribe |
+| mv {name} {new_name} | este comando permite cambiar el nombre del archivo |
+| rm {file} | elimina el archivo |
+| rm -i {file} | Pide confirmación antes de eliminar el archivo. |
+| rm -r {folder} | Elimina el directorio indicado. |
 
-tree
 
-tree -L {#}
 
-Acción
 
-Lista todos los elementos del directorio, incluidos los ocultos.
 
-Lista todos los elementos iniciando por los más pesados.
 
-Lista todos los elementos de forma inversa.
-
-Despliega todos nuestros directorios como un árbol.
-
-Despliega los elementos que se encuentren en el nivel indicado.
-
-### Manipulación de elementos
-
-**Comando**
-
-mkdir {folder}
-
-touch {file}
-
-cp {original} {copia}
-
-mv {file} {path}
-
-mv {name} {new_name}
-
-rm {file}
-
-rm -i {file}
-
-rm -r {folder}
-
-**Acción**
-
-Crea un nuevo directorio con el nombre indicado.
-
-Crea un nuevo archivo con el nombre indicado.
-
-Copia un archivo.
-
-Mueve el archivo a la ubicación deseada.
-
-Renombra el archivo o directorio.
-
-Elimina el archivo indicado.
-
-Pide confirmación antes de eliminar el archivo.
-
-Elimina el directorio indicado.
