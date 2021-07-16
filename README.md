@@ -51,9 +51,9 @@ En la carpeta `home` es donde se encuentran los usuarios del sistema operativo. 
 
 #### Primeros comandos
 
-**Comando**
-
-  - ls : Lista los archivos y carpetas del directorio.
+| **Comando** | Accion |
+| ----------- | ------ |
+| ls :  | Lista los archivos y carpetas del directorio. |
   - ls -l : Lista los archivos y carpetas con la información adicional
   - ls -lh : Lista los archivos y carpetas con la información legible para humanos.
   - cd : Mueve la terminal al directorio `home` del usuario.
