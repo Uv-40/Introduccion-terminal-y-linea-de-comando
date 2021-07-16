@@ -4,6 +4,9 @@
   - [Clase 1 Que es la terminal?](#clase-1-que-es-la-terminal-?)
   - [Clase 2 Aprendiendo a caminar la terminal](#clase-2-aprendiendo-a-caminar-la-terminal)
   - [Clase 3: Manipulando archivos y directorios](#Clase-3-Manipulando-archivos-y-directorios)
+  - [Clase 4: Explorando el contenido de nuestros archivos](#Clase-4-Explorando-el-contenido-de-nuestros-archivos)
+  - [Clase 5: Que es un comando?](Clase-5-Que-es-un-comando?)
+  - [Clase 6: Wildcards](clase-6-wildcards)
 
 
 
@@ -101,6 +104,23 @@ El primer de ellos nos ubica en el directorio actual y el segundo nos regresa un
 
 
 
+### Clase 4: Explorando el contenido de nuestros archivos
 
+La terminal nos permite explorar archivos desde ella misma, así evitamos abrirlos por completo. Los comandos para explorar archivos están listados a continuación.
+
+### Comandos de la clase
+
+| **Comando** | Accion |
+| ----------- | ------ |
+| head {file} | Muestra las primeras lineas del archivo |
+| head {file} -n {#} | Muetra la primeras lineas del archivo segun el numero que se ponga luego de la n |
+| tail {file} | Muestra as ultimas lineas del archivo |
+| tail {file} -n {#} | Muestra las ultimas lineas segun el numero que se ponga luego de la n |
+| less {file} | Muestra todo el archivo de texto seleccionado. |
+| open | Abre un archivo desde la terminal (MacOs). |
+| xdg-open | Abre un archivo desde la terminal (Linux). |
+| nautilus | Abrir el sistema de archivos (Linux). |
+
+Para detener un proceso que se esté ejecutando en la terminal basta con utilizar la combinación de teclas `ctrl + c` para interrumpirlo.
 
 
