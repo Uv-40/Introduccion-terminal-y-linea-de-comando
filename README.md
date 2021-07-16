@@ -54,13 +54,13 @@ En la carpeta `home` es donde se encuentran los usuarios del sistema operativo. 
 | **Comando** | Accion |
 | ----------- | ------ |
 | ls :  | Lista los archivos y carpetas del directorio. |
-  - ls -l : Lista los archivos y carpetas con la información adicional
-  - ls -lh : Lista los archivos y carpetas con la información legible para humanos.
-  - cd : Mueve la terminal al directorio `home` del usuario.
-  - cd {folder} : Mueve la terminal al directorio indicado.
-  - clear : Limpia la pantalla de la terminal (shortcut: `Control + L`).
-  - pwd : (print working diretory) Imprime la ruta actual en la que nos encontramos en la terminal.
-  - file {name_file} : Describe el tipo de archivo que le pasamos como parámetro.
+| ls -l : | Lista los archivos y carpetas con la información adicional. |
+| ls -lh :|Lista los archivos y carpetas con la información legible para humanos. |
+| cd : | Mueve la terminal al directorio `home` del usuario. |
+| cd {folder} : | Mueve la terminal al directorio indicado. |
+| clear : | Limpia la pantalla de la terminal (shortcut: `Control + L`). |
+| pwd : | (print working diretory) Imprime la ruta actual en la que nos encontramos en la terminal. |
+| file {name_file} : | Describe el tipo de archivo que le pasamos como parámetro. |
 
 #### Rutas relativas
 
