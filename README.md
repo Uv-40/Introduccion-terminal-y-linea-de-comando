@@ -62,6 +62,8 @@ En la carpeta `home` es donde se encuentran los usuarios del sistema operativo. 
 | pwd : | (print working diretory) Imprime la ruta actual en la que nos encontramos en la terminal. |
 | file {name_file} : | Describe el tipo de archivo que le pasamos como parámetro. |
 
+
+
 #### Rutas relativas
 
 Tenemos dos parámetros que nos ayudan a trabajar con las rutas en la terminar, estos parámetros son de rutas relativas. Los conocemos como `.` y `..`.
