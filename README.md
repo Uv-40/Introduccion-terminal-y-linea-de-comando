@@ -49,45 +49,20 @@ Aquí se encuentran los archivos del sistema operativo, así como también los e
 
 En la carpeta `home` es donde se encuentran los usuarios del sistema operativo. Dentro de la terminal identificamos esta carpeta con el símbolo llamado virgulilla `~`.
 
-### Primeros comandos
+#### Primeros comandos
 
 **Comando**
 
-ls
+  - ls : Lista los archivos y carpetas del directorio.
+  - ls -l : Lista los archivos y carpetas con la información adicional
+  - ls -lh : Lista los archivos y carpetas con la información legible para humanos.
+  - cd : Mueve la terminal al directorio `home` del usuario.
+  - cd {folder} : Mueve la terminal al directorio indicado.
+  - clear : Limpia la pantalla de la terminal (shortcut: `Control + L`).
+  - pwd : (print working diretory) Imprime la ruta actual en la que nos encontramos en la terminal.
+  - file {name_file} : Describe el tipo de archivo que le pasamos como parámetro.
 
-ls -l
-
-ls -lh
-
-cd
-
-cd {folder}
-
-clear
-
-pwd
-
-file {name_file}
-
-**Acción**
-
-Lista los archivos y carpetas del directorio.
-
-Lista los archivos y carpetas con toda la información de cada uno.
-
-Lista los archivos y carpetas con la información legible para humanos.
-
-Mueve la terminal al directorio `home` del usuario.
-
-Mueve la terminal al directorio indicado.
-
-Limpia la pantalla de la terminal (shortcut: `cmd + L`).
-
-Imprime la ruta actual en la que nos encontramos en la terminal.
-
-Describe el tipo de archivo que le pasamos como parámetro.
-
-### Rutas relativas
+#### Rutas relativas
 
 Tenemos dos parámetros que nos ayudan a trabajar con las rutas en la terminar, estos parámetros son de rutas relativas. Los conocemos como `.` y `..`.
 
@@ -95,9 +70,68 @@ El primer de ellos nos ubica en el directorio actual y el segundo nos regresa un
 
 
 
-
-
-
-
-
 ### Clase 3: Manipulando archivos y directorios
+
+### Listando elementos
+
+Comando
+
+ls -la
+
+ls -lS
+
+ls -lr
+
+tree
+
+tree -L {#}
+
+Acción
+
+Lista todos los elementos del directorio, incluidos los ocultos.
+
+Lista todos los elementos iniciando por los más pesados.
+
+Lista todos los elementos de forma inversa.
+
+Despliega todos nuestros directorios como un árbol.
+
+Despliega los elementos que se encuentren en el nivel indicado.
+
+### Manipulación de elementos
+
+**Comando**
+
+mkdir {folder}
+
+touch {file}
+
+cp {original} {copia}
+
+mv {file} {path}
+
+mv {name} {new_name}
+
+rm {file}
+
+rm -i {file}
+
+rm -r {folder}
+
+**Acción**
+
+Crea un nuevo directorio con el nombre indicado.
+
+Crea un nuevo archivo con el nombre indicado.
+
+Copia un archivo.
+
+Mueve el archivo a la ubicación deseada.
+
+Renombra el archivo o directorio.
+
+Elimina el archivo indicado.
+
+Pide confirmación antes de eliminar el archivo.
+
+Elimina el directorio indicado.
