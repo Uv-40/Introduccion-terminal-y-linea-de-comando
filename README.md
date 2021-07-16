@@ -124,3 +124,13 @@ La terminal nos permite explorar archivos desde ella misma, así evitamos abrirl
 Para detener un proceso que se esté ejecutando en la terminal basta con utilizar la combinación de teclas `ctrl + c` para interrumpirlo.
 
 
+### Clase 5: Que es un comando?
+
+Un comando puede ser:
+  - Un programa ejecutable
+  - Un comando de utilidad shell
+  - Una funcion shell
+  - un alias
+
+
+
