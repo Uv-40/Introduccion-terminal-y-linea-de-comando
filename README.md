@@ -132,5 +132,37 @@ Un comando puede ser:
   - Una funcion shell
   - un alias
 
+### Clase 6: Wildcards
+
+Son una serie de caracteres especiales que nos permiten encontrar patrones o hacer busquedas mas avanzadas.
+
+Ej: todos los archivos de python o excel 
+
+comando ls *.{tipo de archivo} 
+ej: ls*.txt (nos muestra todos los archivos de formato txt
+
+comando ls datos*
+muestra todos los archivos que contengan la palabra datos
+
+comando ls datos?
+muestra los archivos que tengan el nombre datos + un caracter (el ? indica el numero de caracteres adiconales)
 
 
+## Modulo 2: Empezando a correr
+
+
+### Clase 7: Redirecciones: como funciona la shell
+
+Las redirecciones son comandos que nos permiten manejar la entradas y salidas de la terminal 
+
+stdin  (0) = standard input  = provee comandos de entrada, y se describen en linux con el codigo 0
+stdout (1) = standard output = muestra comandos de salida, descritos en linux con el codigo 1
+stderr (2) = standard error  = provee salidas de errores de los comandos, descritos en linux con el codigo  2
+
+| Simbolo | Descripcion |
+| ------- | ----------- |
+| > | Redirecciona el stdout hacia un *archivo*. Lo crea si no existe, si existe lo sobreescribe. |
+| >> | Redirecciona stdout hacia un *archivo*. Lo crea si no existe, si existe concatena la salida al final de este. |
+| < | redirecciona stdin desde un archivo. El contenido de un archivo es la entrada o input del comando. |
+| 2> o 2>> | Redirecciona stderr hacia un archivo. Crea (>) o concatena (>>) la salida de errores a un archivo. |
+| 1>&2 | redirecciona stdout hacia donde stderr apunte.
