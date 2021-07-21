@@ -165,4 +165,7 @@ stderr (2) = standard error  = provee salidas de errores de los comandos, descri
 | >> | Redirecciona stdout hacia un *archivo*. Lo crea si no existe, si existe concatena la salida al final de este. |
 | < | redirecciona stdin desde un archivo. El contenido de un archivo es la entrada o input del comando. |
 | 2> o 2>> | Redirecciona stderr hacia un archivo. Crea (>) o concatena (>>) la salida de errores a un archivo. |
-| 1>&2 | redirecciona stdout hacia donde stderr apunte.
+| 1>&2 | redirecciona stdout hacia donde stderr apunte. |
+
+
+
