@@ -155,9 +155,9 @@ muestra los archivos que tengan el nombre datos + un caracter (el ? indica el nu
 
 Las redirecciones son comandos que nos permiten manejar la entradas y salidas de la terminal 
 
-stdin  (0) = standard input  = provee comandos de entrada, y se describen en linux con el codigo 0
-stdout (1) = standard output = muestra comandos de salida, descritos en linux con el codigo 1
-stderr (2) = standard error  = provee salidas de errores de los comandos, descritos en linux con el codigo  2
+stdin  (0) = standard input  = provee comandos de entrada, y se describen en linux con el codigo 0.
+stdout (1) = standard output = muestra comandos de salida, descritos en linux con el codigo 1.
+stderr (2) = standard error  = provee salidas de errores de los comandos, descritos en linux con el codigo  2.
 
 | Simbolo | Descripcion |
 | ------- | ----------- |
