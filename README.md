@@ -167,5 +167,13 @@ stderr (2) = standard error  = provee salidas de errores de los comandos, descri
 | 2> o 2>> | Redirecciona stderr hacia un archivo. Crea (>) o concatena (>>) la salida de errores a un archivo. |
 | 1>&2 | redirecciona stdout hacia donde stderr apunte. |
 
+### Clase 8: Redirecciones pipe operator
+
+El pipe operator nos permite hacer que el stdout pase como stdinp a otro comando, lo cual nos permite generar filtros, encadenamisntos o funcionalidades que pueden terminar por un archivo.
+
+Comando ECHO = genera un standard output en la terminal de cualquier cosa que le escribamos.
+Comando CAT <archivo 1> <archivo 2> = permite concatenar la informacion de 2 archivos que pongamos.
+
+El pipe operator nos permite que el stdout de un comando se convierta en el stdin de otro comando
 
 
