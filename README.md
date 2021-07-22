@@ -201,6 +201,4 @@ Ej: crear un carpeta y movernos a ella
 | l | link simbolico |
 | b | archivo de bloque especial. son archivos que manejan la informacion de los bloques de datos como una USB |
 
-
-
-
+![Permisos en linux](https://user-images.githubusercontent.com/25805919/126578837-2adf78dc-376e-48c3-a4bb-d5371c003c1a.PNG)
