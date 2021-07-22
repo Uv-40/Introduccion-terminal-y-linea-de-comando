@@ -177,3 +177,21 @@ Comando CAT <archivo 1> <archivo 2> = permite concatenar la informacion de 2 arc
 El pipe operator nos permite que el stdout de un comando se convierta en el stdin de otro comando
 
 
+### Clase 9: Encadenando comandos: operadores de control
+
+Son simbolos reservados por la terminal que nos permiten ejecutar mas de un comando o encadenarlos
+
+Ej: crear un carpeta y movernos a ella
+    ver si se cumple un comando para que se ejecute otro
+    
+| Comando | Funcion |
+| ------- | ------- |
+| comandos separados por ; | Con el punto y coma se pueden separar diferentes comandos para que se ejecuten de manera sincrona es decir uno detras de otro. |
+| comandos separados por & | Con este comando se pueden separar diferentes funciones para que se ejecuten de manera asincrona es decir todos al tiempo cada una genere un hilo distinto |
+| comandos separados por && | comando (AND) ejecuta cada comando solo si el anterior ya se ejecuto exitosamente |
+| comandos separados por // | Comando (OR) ejecuta cada comando hasta que uno sea exitoso y descarta los comandos que se encuentren después del que se ejecuto exitosamente |
+    
+
+
+
+
