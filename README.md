@@ -211,5 +211,7 @@ A continuacion el resumen de los valores que se pueden generar con la representa
 
 Representacion de modo simbolico:
 
+El modo simbolico asignar permisos tacitamente desde la terminan=l mediante el comando CHMOD 
+
 ![Representacion modo simbolico](https://user-images.githubusercontent.com/25805919/126579041-fc081d3f-f9ae-4ab0-86bf-9dc597725d2f.PNG)
 
