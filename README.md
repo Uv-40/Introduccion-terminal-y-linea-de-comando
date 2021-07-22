@@ -204,3 +204,8 @@ Ej: crear un carpeta y movernos a ella
 En el siguiente grafico se muestra los valores de la representacion octal de los permisos.
 
 ![Permisos en linux](https://user-images.githubusercontent.com/25805919/126578837-2adf78dc-376e-48c3-a4bb-d5371c003c1a.PNG)
+
+A continuacion el resumen de los valores que se pueden generar con la representacion octal:
+
+![Resumen valores modo octal](https://user-images.githubusercontent.com/25805919/126578944-c107b060-a7a8-4827-98a3-576bc282afa8.PNG)
+
