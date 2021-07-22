@@ -192,6 +192,15 @@ Ej: crear un carpeta y movernos a ella
 | comandos separados por // | Comando (OR) ejecuta cada comando hasta que uno sea exitoso y descarta los comandos que se encuentren después del que se ejecuto exitosamente |
     
 
+### Clase 10: Como se manejan los permisos
+
+| Atributo | Tipo de archivo |
+| -------- | --------------- |
+| - | Un archivo normal |
+| d | Un directorio |
+| l | link simbolico |
+| b | archivo de bloque especial. son archivos que manejan la informacion de los bloques de datos como una USB |
+
 
 
 
